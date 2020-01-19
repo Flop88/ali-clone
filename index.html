@@ -37,10 +37,12 @@
 
 					<form class="search">
 						<div class="search-wrapper">
-							<input id="searchGoods" class="search-wrapper_input" type="text" aria-label="Поиск товаров" role="search">
+							<input id="searchGoods" class="search-wrapper_input" type="text" aria-label="Поиск товаров"
+								role="search">
 						</div>
 						<div class="search-wrap-btn">
-							<button type="submit" class="search-btn" id="search-btn" aria-label="Поиск товаров"></button>
+							<button type="submit" class="search-btn" id="search-btn"
+								aria-label="Поиск товаров"></button>
 						</div>
 					</form>
 					<a href="#" class="nav-elements" id="cart">
@@ -64,19 +66,24 @@
 						</div>
 						<ul class="category-list">
 							<li>
-								<a href="#" class="category-item category-item__mobile" data-category="mobile">Телефоны и аксессуары</a>
+								<a href="#" class="category-item category-item__mobile" data-category="mobile">Телефоны
+									и аксессуары</a>
 							</li>
 							<li>
-								<a href="#" class="category-item category-item__pc" data-category="pc">Компьютеры и оргтехника</a>
+								<a href="#" class="category-item category-item__pc" data-category="pc">Компьютеры и
+									оргтехника</a>
 							</li>
 							<li>
-								<a href="#" class="category-item category-item__electron" data-category="electron">Электроника</a>
+								<a href="#" class="category-item category-item__electron"
+									data-category="electron">Электроника</a>
 							</li>
 							<li>
-								<a href="#" class="category-item category-item__home" data-category="home">Бытовая Техника</a>
+								<a href="#" class="category-item category-item__home" data-category="home">Бытовая
+									Техника</a>
 							</li>
 							<li>
-								<a href="#" class="category-item category-item__sport" data-category="sport">Спорт и развлечения</a>
+								<a href="#" class="category-item category-item__sport" data-category="sport">Спорт и
+									развлечения</a>
 							</li>
 						</ul>
 					</div>
@@ -85,24 +92,44 @@
 					<div class="container">
 						<div class="row no-gutters goods-wrapper justify-content-center">
 							<!-- КАРТОЧКИ ТОВАРОВ -->
-								<!-- <div class="card-wrapper col-12 col-md-6 col-lg-4 col-xl-3 pb-3">
-									<div class="card">
-										<div class="card-img-wrapper">
-											<img class="card-img-top" src="img/temp.png" alt="">
-											<button class="card-add-wishlist"></button>
-										</div>
-										<div class="card-body justify-content-between">
-											<a href="#" class="card-title">Имя товара</a>
-											<div class="card-price">100000 ₽</div>
-											<div>
-												<button class="card-add-cart">Добавить в корзину</button>
-											</div>
+							<!-- <div class="card-wrapper col-12 col-md-6 col-lg-4 col-xl-3 pb-3">
+								<div class="card">
+									<div class="card-img-wrapper">
+										<img class="card-img-top" src="img/temp.png" alt="">
+										<button class="card-add-wishlist"></button>
+									</div>
+									<div class="card-body justify-content-between">
+										<a href="#" class="card-title">Имя товара</a>
+										<div class="card-price">100000 ₽</div>
+										<div>
+											<button class="card-add-cart">Добавить в корзину</button>
 										</div>
 									</div>
-								</div> -->
+								</div>
+							</div> -->
 
 
 							<!-- END КАРТОЧКИ ТОВАРОВ -->
+
+							<!-- SPINER -->
+							<div id="spinnerWrapper">
+								<div class="loadingio-spinner-spinner-ooe5428mynh">
+									<div class="ldio-9rgoaasotdq">
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -122,19 +149,17 @@
 			</div>
 
 			<div class="cart-wrapper">
-				<div id="cart-empty">
+				<!-- <div id="cart-empty">
 					Ваша корзина пока пуста
-				</div>
+				</div> -->
 
 				<div class="goods">
-					<div class="goods-img-wrapper">
+					<!-- <div class="goods-img-wrapper">
 						<img class="goods-img" src="img/temp.png" alt="">
-
 					</div>
 					<div class="goods-description">
 						<h2 class="goods-title">Название товара</h2>
 						<p class="goods-price">100000 ₽</p>
-
 					</div>
 					<div class="goods-price-count">
 						<div class="goods-trigger">
@@ -142,7 +167,7 @@
 							<button class="goods-delete"></button>
 						</div>
 						<div class="goods-count">1</div>
-					</div>
+					</div> -->
 				</div>
 
 
@@ -156,15 +181,28 @@
 	</div>
 
 
-	
-<script src="script/script.js"></script>
+	<script src="./script/script.js"></script>
 </body>
 
 </html>
 
-<!-- spinner
 
-<div id="spinner"><div class="spinner-loading"><div><div><div></div>
-</div><div><div></div></div><div><div></div></div><div><div></div></div></div></div></div>
 
--->
+<div id="spinner">
+	<div class="spinner-loading">
+		<div>
+			<div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+</div>

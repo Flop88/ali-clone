@@ -18,7 +18,7 @@
 
 @-webkit-keyframes error {
   0% {
-    border: 3px solid #FF4747;
+    border: 3px solid #313131;
   }
   25% {
     border: 3px solid #0059FF;
@@ -30,13 +30,13 @@
     border: 3px solid #FF63F5;
   }
   100% {
-    border: 3px solid #FF4747;
+    border: 3px solid #313131;
   }
 }
 
 @keyframes error {
   0% {
-    border: 3px solid #FF4747;
+    border: 3px solid #313131;
   }
   25% {
     border: 3px solid #0059FF;
@@ -48,7 +48,7 @@
     border: 3px solid #FF63F5;
   }
   100% {
-    border: 3px solid #FF4747;
+    border: 3px solid #313131;
   }
 }
 
@@ -112,12 +112,12 @@ button:focus {
       -ms-user-select: none;
           user-select: none;
   margin-top: auto;
-  border: 2px solid #FF4747;
+  border: 2px solid #313131;
   font-weight: 700;
   outline: none;
   min-height: 32px;
   color: #fff;
-  background-color: #FF4747;
+  background-color: #313131;
 }
 
 .btn:hover {
@@ -165,7 +165,7 @@ nav .catalog {
   left: 0;
   z-index: 120;
   background: #ffffff;
-  border: 2px solid #FF4747;
+  border: 2px solid #313131;
   width: 118px;
 }
 
@@ -200,7 +200,7 @@ nav .catalog-button button {
   width: 118px;
   height: 40px;
   border-radius: 3px;
-  background-color: #FF4747;
+  background-color: #313131;
   color: #fff;
   font-weight: 700;
   padding: 0;
@@ -235,7 +235,7 @@ nav .search {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  border: 3px solid #FF4747;
+  border: 3px solid #313131;
 }
 
 nav .search-wrapper {
@@ -283,7 +283,7 @@ nav .search-wrap-brn {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   overflow: hidden;
-  background-color: #FF4747;
+  background-color: #313131;
 }
 
 nav .search-btn {
@@ -291,7 +291,7 @@ nav .search-btn {
   border-color: transparent;
   height: 100%;
   width: 100%;
-  background-color: #FF4747;
+  background-color: #313131;
   border: none;
 }
 
@@ -339,7 +339,7 @@ nav .search-btn::before {
   height: 16px;
   border-radius: 8px;
   padding: 0 8px;
-  background-color: #FF4747;
+  background-color: #313131;
   color: #fff;
   font-size: 12px;
   line-height: 16px;
@@ -420,7 +420,7 @@ nav .search-btn::before {
 }
 
 .category-item:hover {
-  color: #FF4747;
+  color: #313131;
 }
 
 .category-item:before {
@@ -552,7 +552,7 @@ nav .search-btn::before {
 .card-title:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: #FF4747;
+  color: #313131;
 }
 
 .card-body {
@@ -574,7 +574,7 @@ nav .search-btn::before {
 .card-add-cart {
   display: none;
   margin: 0 auto;
-  background: #ff9a00;
+  background: #44d3ff;
   padding: 3px 9px;
   min-width: 165px;
   color: #fff;
@@ -601,7 +601,7 @@ nav .search-btn::before {
 }
 
 .card-add-wishlist:hover {
-  background-color: #f90;
+  background-color: #eee;
   background-position: 4px -2588px;
 }
 
@@ -611,7 +611,7 @@ nav .search-btn::before {
 }
 
 .card-add-wishlist.active:hover {
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 .card-store {
@@ -626,7 +626,7 @@ nav .search-btn::before {
 }
 
 .card-store:hover {
-  color: #FF4747;
+  color: #313131;
 }
 
 .cart {

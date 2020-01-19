@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const getGoods = (handler, filter) => {
         loading() // спиннер
         setTimeout(() => { // вводим временную задержку для демонстрации спиннера
-            fetch('http://git.lekua.in.ua/AliJSpress/db/db.json') // извлечение товаров из БД
+            fetch('db/db.json') // извлечение товаров из БД
                 .then(response => response.json())
                 .then(filter)  // фильтрация
                 .then(handler); // рендеринг
